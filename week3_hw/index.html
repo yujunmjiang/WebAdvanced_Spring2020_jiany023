@@ -1,0 +1,50 @@
+<!-- Week 03 Assignment
+	 Create a responsive mockup for my final project (data has not yet been added).
+	 By Yujun Jiang -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Week 3: Responsive Web Design</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+	<script src="https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js"></script>
+	<link href="https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="map"></div>
+	<br />
+	<button id="fit-ny">New York</button>
+	<script>
+		mapboxgl.accessToken = 'pk.eyJ1IjoieXVqdW5tamlhbmciLCJhIjoiY2s2aXd1MmgwMDVudjNtbWZ1YjR3MzUwNSJ9.0-rJvNwIiwNXtqRCMy1vVw';
+		var map = new mapboxgl.Map({
+			container: 'map', // container id
+			style: 'mapbox://styles/yujunmjiang/ck6ixe1c70kvt1il356yl432b',
+			center: [-96, 37.8], // starting position
+			zoom: 3 // starting zoom
+		});
+
+		// Add geolocate control to the map.
+		map.addControl(
+			new mapboxgl.GeolocateControl({
+				positionOptions: {
+					enableHighAccuracy: true
+				},
+				trackUserLocation: true
+			})
+		);
+ 
+		document.getElementById('fit-ny').addEventListener('click', function() {
+			// Fly to New York: 40.730610, -73.935242
+			map.flyTo({
+				center: [-73.935242, 40.730610],
+				zoom: 12,
+				essential: true // this animation is considered essential with respect to prefers-reduced-motion
+			});
+		});
+	</script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
