@@ -24,18 +24,3 @@ body {
 	color: #fff;
 	background: #6580ee;
 }
-
-#fit-la {
-	display: block;
-	position: relative;
-	margin: 0px auto;
-	width: 10%;
-	height: 40px;
-	padding: 10px;
-	border: none;
-	border-radius: 3px; /* rounds the corners of an element's outer border edge */
-	font-size: 12px;
-	text-align: center;
-	color: #fff;
-	background: #6580ee;
-}
