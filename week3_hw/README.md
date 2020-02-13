@@ -10,3 +10,11 @@ I used Mapbox API to build an interactive map and visualize shooting incident da
 Desktop version:
 
 <img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week3_hw/mockup/desktop.png" width="50%"/>
+
+Tablet portrait:
+
+<img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week3_hw/mockup/tablet.png" width="50%"/>
+
+Mobile portrait:
+
+<img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week3_hw/mockup/mobile.png.png" width="50%"/>
