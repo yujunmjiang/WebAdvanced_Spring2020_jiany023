@@ -1,7 +1,3 @@
-/* Week 02 Assignment
-   Create an art history quiz base on a flow diagram.
-   By Yujun Jiang */
-
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
