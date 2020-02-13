@@ -17,4 +17,4 @@ Tablet portrait:
 
 Mobile portrait:
 
-<img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week3_hw/mockup/mobile.png.png" width="50%"/>
+<img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week3_hw/mockup/mobile.png" width="50%"/>
