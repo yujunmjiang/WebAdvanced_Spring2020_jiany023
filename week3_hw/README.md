@@ -5,6 +5,6 @@
 2. Create the structure (HTML / CSS) for your final project. Make sure that it’s responsive.
 
 #### Solution
-I created a quiz website to test people's common sense on art history. Each multiple choice only has one correct answer and people will know the result immediately base on the background color change. In my style sheet, I used `:root` to declare global CSS variables and `--hue: var(--hue-neutral)` to represent a default neutral color. In the JavaScript part, all the questions are stored as block-scoped variables by `const`. Lastly, `shuffledQuestions = questions.sort(() => Math.random() - .5)` will let your broswer to run a random question when you hit refresh or next button. 
+I used Mapbox API to build an interactive map and visualize shooting incident data in New York City with geocode. The interface has three functions which are return to the default location, access to your current location, and report a real time shooting incident (add new data point to the existing dataset).
 
-<img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week2_hw/flow_diagram.png" width="50%"/>
+<img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week3_hw/mockup/desktop.png" width="50%"/>
