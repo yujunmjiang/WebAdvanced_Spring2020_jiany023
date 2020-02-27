@@ -1,0 +1,102 @@
+<!-- Week 05 Assignment
+	 1. Create a dataset for my website and store is as GeoJSON filr.
+	 2. Use Mapbox datasets to store the dataset online and map it in a new layer.
+	 3. Pull the data and display it on my web application using handlebars.
+	 By Yujun Jiang -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Week 5: API / JSON / Handlebars.js</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+	<script src="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
+	<link href="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css" rel="stylesheet" />
+</head>
+<body>
+
+	<div id="map"></div>
+	<!-- <br /> -->
+	<div class="topnav">
+
+		<!-- Centered link -->
+		<!-- <div class="topnav-centered">
+		  <a href="#home" class="active">Home</a>
+		</div> -->
+		
+		<!-- Left-aligned links (default) -->
+		<a id="city-ny" href="#">New York</a>
+		<a id="city-bos" href="#">Boston</a>
+		<a id="city-chi" href="#">Chicago</a>
+		<a id="city-la" href="#">Los Angeles</a>
+		<a id="city-sf" href="#">San Francisco</a>
+		
+		<!-- Right-aligned links -->
+		<!-- <div class="topnav-right">
+		  <a href="#search">Search</a>
+		  <a href="#about">About</a>
+		</div> -->
+		
+	</div>
+
+	<!-- <button id="button-report">Report</button> -->
+
+	<script>
+ 
+		document.getElementById('city-ny').addEventListener('click', function() {
+			// Fly to New York: 40.730610, -73.935242
+			map.flyTo({
+				center: [-73.935242, 40.730610],
+				zoom: 12,
+				essential: true // this animation is considered essential with respect to prefers-reduced-motion
+			});
+		});
+
+		document.getElementById('city-bos').addEventListener('click', function() {
+			map.flyTo({
+				center: [-71.057083, 42.361145],
+				zoom: 12,
+				essential: true // this animation is considered essential with respect to prefers-reduced-motion
+			});
+		});
+
+		document.getElementById('city-chi').addEventListener('click', function() {
+			map.flyTo({
+				center: [-87.623177, 41.881832],
+				zoom: 12,
+				essential: true // this animation is considered essential with respect to prefers-reduced-motion
+			});
+		});
+
+		document.getElementById('city-la').addEventListener('click', function() {
+			map.flyTo({
+				center: [-118.243683, 34.052235],
+				zoom: 12,
+				essential: true // this animation is considered essential with respect to prefers-reduced-motion
+			});
+		});
+
+		document.getElementById('city-sf').addEventListener('click', function() {
+			map.flyTo({
+				center: [-122.446747, 37.733795],
+				zoom: 12,
+				essential: true // this animation is considered essential with respect to prefers-reduced-motion
+			});
+		});
+
+		// document.getElementById('button-report').addEventListener('click', function() {
+
+		// });
+
+
+
+
+	</script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.3/handlebars.amd.min.js"></script>
+</body>
+</html>
