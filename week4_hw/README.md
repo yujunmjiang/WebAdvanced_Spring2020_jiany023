@@ -16,8 +16,7 @@ Code:
 		<a id="city-ny" href="#">New York</a>  
   </div>
 
-  <script>
- 
+  <script> 
 	document.getElementById('city-ny').addEventListener('click', function() {
 		map.flyTo({
 			center: [-73.935242, 40.730610],
@@ -25,7 +24,6 @@ Code:
 			essential: true // this animation is considered essential with respect to prefers-reduced-motion
 		});
 	});
-
   </script>
 	
 <body>
