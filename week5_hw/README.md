@@ -5,6 +5,9 @@
 2. Append the data to your HTML.
 3. Pull the data and display it on your web application using handlebars.
 
-#### NYPD Shooting Incident Data (Historic)
+#### Solution
+I used Mapbox API to build an interactive map and visualize shooting incident data in New York City with geocode. The interface has three functions which are return to the default location, access to your current location, and report a real time shooting incident (add new data point to the existing dataset).
+
+NYPD Shooting Incident Data (Historic):
 
 <img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week5_hw/Screen%20Shot%202020-02-27%20at%201.13.03%20AM.png">
