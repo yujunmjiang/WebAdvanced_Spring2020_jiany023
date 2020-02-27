@@ -19,7 +19,6 @@ Code:
   <script>
  
 	document.getElementById('city-ny').addEventListener('click', function() {
-		// Fly to New York: 40.730610, -73.935242
 		map.flyTo({
 			center: [-73.935242, 40.730610],
 			zoom: 12,
