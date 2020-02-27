@@ -7,7 +7,7 @@ Add some functionality to your midterm project website using jQuery (Example: Sc
 When I click a city name in the menu bar, the map will show a relevant city.
 
 Code:
-```
+```HTML
 <body>
 
 	<div id="map"></div>
