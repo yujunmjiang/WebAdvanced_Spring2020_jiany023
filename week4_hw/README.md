@@ -4,7 +4,7 @@
 Add some functionality to your midterm project website using jQuery (Example: Scroll Animation, Menus, Make content appear and disappear when you click or you hover an element.
 
 #### Solution
-When I click a city name in the menu bar, the map will show a relevant city.
+When I click any city name in the menu bar, the map will show the relevant city.
 
 Code:
 ```html
