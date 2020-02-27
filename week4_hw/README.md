@@ -7,27 +7,27 @@ Add some functionality to your midterm project website using jQuery (Example: Sc
 When I click a city name in the menu bar, the map will show a relevant city.
 
 Code:
-```HTML
+```html
 <body>
 
-	<div id="map"></div>
+  <div id="map"></div>
   
-  <div class="topnav">
-  
-		<a id="city-ny" href="#">New York</a>
-    
+  <div class="topnav">  
+		<a id="city-ny" href="#">New York</a>  
   </div>
 
-	<script>
+  <script>
  
-		document.getElementById('city-ny').addEventListener('click', function() {
-			// Fly to New York: 40.730610, -73.935242
-			map.flyTo({
-				center: [-73.935242, 40.730610],
-				zoom: 12,
-				essential: true // this animation is considered essential with respect to prefers-reduced-motion
-			});
+	document.getElementById('city-ny').addEventListener('click', function() {
+		// Fly to New York: 40.730610, -73.935242
+		map.flyTo({
+			center: [-73.935242, 40.730610],
+			zoom: 12,
+			essential: true // this animation is considered essential with respect to prefers-reduced-motion
 		});
+	});
 
-	</script>
+  </script>
+	
+<body>
 ```
