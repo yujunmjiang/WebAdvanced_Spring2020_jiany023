@@ -4,7 +4,7 @@
 1. Pull information from an API.
 
 #### Solution
-I seleced a dataset called [NYPD Shooting Incident Data (Historic)](https://data.cityofnewyork.us/Public-Safety/NYPD-Shooting-Incident-Data-Historic-/833y-fsy8) from NYC OpenData website. The original dataset has been converted from CSV to GeoJSON by Mapbox Studio. All the data points are mapped as an additionl layer and then I can add popup information to each of them.
+I visualized the shooting incidents data base on five boroughs in the greater New York City area, and then used Chart.js to create an interactive chart to match all the map data potins.
 
 NYPD Shooting Incident Data (Historic):
 
