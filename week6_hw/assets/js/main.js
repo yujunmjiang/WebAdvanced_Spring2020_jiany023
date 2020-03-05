@@ -88,3 +88,47 @@ map.on('click', function(e) {
 	  .setLngLat(feature.geometry.coordinates)
 	  .addTo(map);
 });
+
+
+
+
+
+new Chart(document.getElementById("bar-chart-horizontal"), {
+	type: 'horizontalBar',
+    data: {
+      labels: ["BROOKLYN", "BRONX", "QUEENS", "MANHATTAN", "STATEN ISLAND"],
+      datasets: [
+        {
+          label: "Shooting Incidents",
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+		  data: [8829,6128,3198,2617,636]
+        }
+      ]
+    },
+    options: {
+	  responsive: true,
+	  maintainAspectRatio: false,
+      legend: { display: false },
+      title: {
+        display: true,
+        text: 'NYPD Shooting Incident Data (Historic: Jan 2016 - Sep 2019)'
+	  },
+	  scales: {
+		  xAxes: [{
+			  gridLines: {
+				color: 'rgba(80, 80, 80, 1)'
+			  },
+			  display: true,
+			  stacked: true
+			}],
+		  yAxes: [{
+			  gridLines: {
+				  color: 'rgba(80, 80, 80, 1)'
+			  },
+			  display: true,
+			  stacked: true
+		  }]
+	  },
+
+	}
+});
