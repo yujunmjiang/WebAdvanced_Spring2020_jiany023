@@ -5,7 +5,7 @@
 2. Create the structure (HTML / CSS) for your final project. Make sure that it’s responsive.
 
 #### Solution
-I used Mapbox API to build an interactive map and visualize shooting incident data in New York City with geocode. The interface has three functions which are return to the default location, access to your current location, and report a real time shooting incident (add new data point to the existing dataset).
+I used [Mapbox API](https://www.mapbox.com/) to build an interactive map and visualize shooting incident data in New York City with geocode. The interface has three functions which are return to the default location, access to your current location, and report a real time shooting incident (add new data point to the existing dataset).
 
 Desktop version:
 
