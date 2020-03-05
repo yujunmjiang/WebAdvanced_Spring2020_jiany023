@@ -4,7 +4,7 @@
 1. Pull information from an API.
 
 #### Solution
-I visualized the shooting incidents data base on five boroughs in the greater New York City area, and then used Chart.js to create an interactive chart to match all the map data potins.
+I visualized the shooting incidents data base on five boroughs in the greater New York City area, and then used [Chart.js](https://www.chartjs.org/) to create an interactive chart to match the map data potins.
 
 NYPD Shooting Incident Data (Historic):
 
