@@ -11,4 +11,4 @@ I visualized the shooting incidents data base on five boroughs in the greater Ne
 
 Interactive Chart:
 
-<img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week6_hw/Screen%20Shot%202020-03-05%20at%202.40.55%20AM.png" width="50%"/>
+<img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week7_hw/screencapture-file-Users-yujunjiang-Desktop-Web-Advanced-JavaScript-wa7-week7-hw-index-html-2020-03-10-22_40_53.png" width="50%"/>
