@@ -12,4 +12,8 @@ Submit your Midterm code and documentation explaining:
 If you previously had issues with your code, this is a good time to fix errors and complete the assignment. 
 
 #### Solution
+The NYPD maintains statistical data which is used as a management tool in reducing crime, improving procedure and training, and providing transparency to the public and government oversight agencies. In 1994, the department implemented CompStat, which through management, statistics, and accountability, successfully drove down crime to record levels not seen since the 1950s.
+
+The department provides up-to-date crime-related statistics in the seven major crime categories on the citywide, borough, and precinct levels, as well as historical crime data. The public can also access this data through the department’s [CompStat 2.0](https://compstat.nypdonline.org/2e5c3f4b-85c1-4635-83c6-22b27fe7c75c/view/89) portal.
+
 I visualized the shooting incidents data base on five boroughs in the greater New York City area, and then used [Chart.js](https://www.chartjs.org/) to create three interactive charts to match the different variables. The color palette that I selected fot the charts referenced borough flags and human skin colors in RGB mode.
