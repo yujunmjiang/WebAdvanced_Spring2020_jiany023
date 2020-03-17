@@ -27,4 +27,4 @@ Base on the NYPD's crime data, I reduced it to the shooting incident data in the
 <img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week8_hw/screencapture-data-cityofnewyork-us-Public-Safety-NYPD-Shooting-Incident-Data-Historic-833y-fsy8-2020-03-16-23_45_25.png" width="50%"/>
 
 #### Solution
-I visualized the shooting incidents data base on five boroughs in the greater New York City area, and then used [Chart.js](https://www.chartjs.org/) to create three interactive charts to match the different variables. The color palette that I selected fot the charts referenced borough flags and human skin colors in RGB mode.
+I visualized the shooting incidents data base on five boroughs in the greater New York City area by [Mapbox API](https://www.mapbox.com/), and then used [Chart.js](https://www.chartjs.org/) to create three interactive charts to match the different variables. The color palette that I selected fot the charts referenced [borough flags](https://www.nytimes.com/2017/06/14/nyregion/new-york-today-nyc-borough-flags-mermaid-parade.html) and human skin colors in RGB mode.
