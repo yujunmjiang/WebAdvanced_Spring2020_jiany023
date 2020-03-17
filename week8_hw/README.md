@@ -24,5 +24,7 @@ My idea is to build one function on the user side that allows people to report s
 #### Dataset
 Base on the NYPD's crime data, I reduced it to the shooting incident data in the greater New York area. I found [NYPD Shooting Incident Data (Historic)](https://data.cityofnewyork.us/Public-Safety/NYPD-Shooting-Incident-Data-Historic-/833y-fsy8) on the NYC OpenData website. During the data preparation, I selected date, time, borough, age, sex, and race as the variables to create visualization.
 
+<img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week8_hw/screencapture-data-cityofnewyork-us-Public-Safety-NYPD-Shooting-Incident-Data-Historic-833y-fsy8-2020-03-16-23_45_25.png" width="50%"/>
+
 #### Solution
 I visualized the shooting incidents data base on five boroughs in the greater New York City area, and then used [Chart.js](https://www.chartjs.org/) to create three interactive charts to match the different variables. The color palette that I selected fot the charts referenced borough flags and human skin colors in RGB mode.
