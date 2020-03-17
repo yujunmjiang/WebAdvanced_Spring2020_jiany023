@@ -29,5 +29,7 @@ Base on the NYPD's crime data, I reduced it to the shooting incident data in the
 #### Solution
 I visualized the shooting incidents data base on five boroughs in the greater New York City area by [Mapbox API](https://www.mapbox.com/), and then used [Chart.js](https://www.chartjs.org/) to create three interactive charts to match the different variables. The color palette that I selected fot the charts referenced [borough flags](https://www.nytimes.com/2017/06/14/nyregion/new-york-today-nyc-borough-flags-mermaid-parade.html) and human skin colors in RGB mode. The challenge is to make a balance between interaction, meaning, and readability.
 
+<img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week8_hw/screencapture-file-Users-yujunjiang-Desktop-Web-Advanced-JavaScript-wa7-week7-hw-index-html-2020-03-10-22_40_53.png" width="50%"/>
+
 #### Next Steps
 Add a button that allows users to make a real-time shooting incident report.
