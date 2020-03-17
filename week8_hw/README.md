@@ -3,11 +3,11 @@
 #### Task
 Submit your Midterm code and documentation explaining:
 
-• Concept
-• References if any
-• Explain your project
-• Challenges
-• Next Steps
+1. Concept
+2. References if any
+3. Explain your project
+4. Challenges
+5. Next Steps
 
 If you previously had issues with your code, this is a good time to fix errors and complete the assignment. 
 
