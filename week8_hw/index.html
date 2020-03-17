@@ -1,0 +1,110 @@
+<!-- Week 08 Assignment
+	 1. Make sure the website is responsive.
+	 2. Do some CSS styling.
+	 3. Use either an API or structure my data on JSON file.
+	 4. Bonus Point: Use a library other than jQuery (It doesn't need to be too elaborated).
+	 By Yujun Jiang -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Week 8: Midterm Submission</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+</head>
+<body>
+
+	<script src="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
+	<link href="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css" rel="stylesheet" />
+
+	<div id="map"></div>
+
+
+
+	<div class="topnav">
+		<a id="city-ny" href="#">New York</a>
+		<a id="city-bos" href="#">Boston</a>
+		<a id="city-chi" href="#">Chicago</a>
+		<a id="city-la" href="#">Los Angeles</a>
+		<a id="city-sf" href="#">San Francisco</a>
+	</div>
+
+	<!-- <button id="button-report">Report</button> -->
+
+	<script>
+ 
+		document.getElementById('city-ny').addEventListener('click', function() {
+			// Fly to New York: 40.730610, -73.935242
+			map.flyTo({
+				center: [-73.935242, 40.730610],
+				zoom: 12,
+				essential: true // this animation is considered essential with respect to prefers-reduced-motion
+			});
+		});
+
+		document.getElementById('city-bos').addEventListener('click', function() {
+			map.flyTo({
+				center: [-71.057083, 42.361145],
+				zoom: 12,
+				essential: true // this animation is considered essential with respect to prefers-reduced-motion
+			});
+		});
+
+		document.getElementById('city-chi').addEventListener('click', function() {
+			map.flyTo({
+				center: [-87.623177, 41.881832],
+				zoom: 12,
+				essential: true // this animation is considered essential with respect to prefers-reduced-motion
+			});
+		});
+
+		document.getElementById('city-la').addEventListener('click', function() {
+			map.flyTo({
+				center: [-118.243683, 34.052235],
+				zoom: 12,
+				essential: true // this animation is considered essential with respect to prefers-reduced-motion
+			});
+		});
+
+		document.getElementById('city-sf').addEventListener('click', function() {
+			map.flyTo({
+				center: [-122.446747, 37.733795],
+				zoom: 12,
+				essential: true // this animation is considered essential with respect to prefers-reduced-motion
+			});
+		});
+
+		// document.getElementById('button-report').addEventListener('click', function() {
+
+		// });
+
+	</script>
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+	
+	<div class="chart">
+		<canvas id="bar-chart-horizontal" width="800" height="450"></canvas>
+	</div>
+
+	<div class="chart">
+		<canvas id="doughnut-chart" width="800" height="450"></canvas>
+	</div>
+
+	<div class="chart">
+		<canvas id="line-chart" width="800" height="450"></canvas>
+	</div>
+
+	
+	
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	
+
+
+</body>
+</html>
