@@ -23,4 +23,4 @@ import axios from 'axios'
   }
 ```
 
-In the beginning, I linked the metadata of [NYPD Shooting Incident Data (Year To Date)](https://data.cityofnewyork.us/Public-Safety/NYPD-Shooting-Incident-Data-Year-To-Date-/5ucz-vwe8) to my Vue application by `mounted` function. So, I do not have to convert and save any of them as GeoJSON on Mapbox. To check the connection, I can print my data in a browser as below
+In the beginning, I linked the metadata of [NYPD Shooting Incident Data (Year To Date)](https://data.cityofnewyork.us/Public-Safety/NYPD-Shooting-Incident-Data-Year-To-Date-/5ucz-vwe8) to my Vue application by `mounted` function. So, I do not have to convert and save any of them as GeoJSON on Mapbox. Also, I can print my data in a browser and check if the connection is successful as below
