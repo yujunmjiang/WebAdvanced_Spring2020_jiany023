@@ -9,4 +9,4 @@ You can follow any concept you want as long as you use one of the followings
 * D3 + Three.js
 
 #### Solution
-Base on the [previous project](https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/tree/master/week8_hw) about the re-design of the NYPD's [CompStat 2.0](https://compstat.nypdonline.org/2e5c3f4b-85c1-4635-83c6-22b27fe7c75c/view/89) virtual portal, I have re-constructed the whole website with [Vue.js](https://vuejs.org/) and connected it to other APIs.
+Base on the [previous project](https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/tree/master/week8_hw) about the re-design of the NYPD's [CompStat 2.0](https://compstat.nypdonline.org/2e5c3f4b-85c1-4635-83c6-22b27fe7c75c/view/89) virtual portal, I have re-constructed the whole website with [Vue.js](https://vuejs.org/) and connected it to other APIs. In this version, I can move my code from the server side into a browser. Vue.js is an approachable JavaScript framework which can provide maintainable and testable code base.
