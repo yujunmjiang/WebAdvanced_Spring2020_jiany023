@@ -38,12 +38,13 @@ import { LMap, LTileLayer, LCircleMarker, LPopup } from 'vue2-leaflet';
 <l-map :zoom="zoom" :center="center">
     <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>
         <l-circle-marker 
-              v-for="(incident, index) in incidents" :key="index"
-              :lat-lng="latLng(incident.latitude, incident.longitude)"
+            v-for="(incident, index) in incidents" :key="index"
+            :lat-lng="latLng(incident.latitude, incident.longitude)"
         >
-                    <l-popup>
-                        // Add my popup content here
-                    </l-popup>
+            <l-popup>
+                // Add my popup content here
+            </l-popup>
+            
         </l-circle-marker>
 </l-map>
 ```
