@@ -48,3 +48,7 @@ import { LMap, LTileLayer, LCircleMarker, LPopup } from 'vue2-leaflet';
         </l-circle-marker>
 </l-map>
 ```
+
+For the rest of the features, I want to use various markers to distinguish different types of the incidents. The scrollable index and map should interact with each other. Some interactive charts made by Chart.js are considered as well.
+
+<img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week11_hw/image/Screen%20Shot%202020-04-27%20at%203.17.16%20PM.png" width="50%"/>
