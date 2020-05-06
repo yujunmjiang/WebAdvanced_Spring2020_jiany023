@@ -107,7 +107,7 @@ new Chart(document.getElementById("bar-chart-horizontal"), {
       legend: { display: false },
       title: {
         display: true,
-        text: 'NYPD Shooting Incident Data (Historic: Jan 2016 - Sep 2019)'
+        text: 'NYPD Shooting Incident Data (Historic: Jan 2006 - Sep 2019)'
 	  },
 	  scales: {
 		  xAxes: [{
@@ -146,7 +146,7 @@ new Chart(document.getElementById("doughnut-chart"), {
     options: {
       title: {
         display: true,
-        text: 'NYPD Shooting Incident Data (Historic: Jan 2016 - Sep 2019)'
+        text: 'NYPD Shooting Incident Data (Historic: Jan 2006 - Sep 2019)'
       }
     }
 });
@@ -198,7 +198,7 @@ new Chart(document.getElementById("line-chart"), {
   options: {
     title: {
       display: true,
-      text: 'NYPD Shooting Incident Data (Historic: Jan 2016 - Sep 2019)'
+      text: 'NYPD Shooting Incident Data (Historic: Jan 2006 - Sep 2019)'
     }
   }
 });

@@ -24,3 +24,31 @@ import axios from 'axios'
 ```
 
 In the beginning, I linked the metadata of [NYPD Shooting Incident Data (Year To Date)](https://data.cityofnewyork.us/Public-Safety/NYPD-Shooting-Incident-Data-Year-To-Date-/5ucz-vwe8) to my Vue application by `mounted` function. The reason is I do not have to convert and save any of them as GeoJSON on Mapbox. Then, I can run command `npm run serve` in my console and print the data in a browser to check if the connection is successful as below:
+
+<img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week11_hw/image/Screen%20Shot%202020-04-26%20at%206.49.09%20PM.png" width="50%"/>
+
+As the UI building process, I used [Bootstrap](https://getbootstrap.com/) library to build my entire application with Sass variables, responsive grid system, and extensive prebuilt components. After it, I built a geolocation based data visualization by [Leaflet.js](https://leafletjs.com/) and import the functions to combine with my data in the Vue.js format.
+
+```JavaScript
+import L from 'leaflet';
+import { LMap, LTileLayer, LCircleMarker, LPopup } from 'vue2-leaflet';
+```
+
+```JavaScript
+<l-map :zoom="zoom" :center="center">
+    <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>
+        <l-circle-marker 
+            v-for="(incident, index) in incidents" :key="index"
+            :lat-lng="latLng(incident.latitude, incident.longitude)"
+        >
+            <l-popup>
+                // Add my popup content here
+            </l-popup>
+            
+        </l-circle-marker>
+</l-map>
+```
+
+For the rest of the features, I want to add more colors on markers to distinguish different types of the incidents. The scrollable index and map should interact with each other. Some interactive charts made by Chart.js are considered as well.
+
+<img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week11_hw/image/Screen%20Shot%202020-04-27%20at%203.17.16%20PM.png" width="50%"/>
