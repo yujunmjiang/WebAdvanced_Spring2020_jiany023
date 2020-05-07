@@ -3,4 +3,4 @@ Base on the [previous project](https://github.com/yujunmjiang/WebAdvanced_Spring
 
 In this updated version, I used a new JavaScript library called [ECharts](https://echarts.apache.org/en/index.html) to visualize all the data points. The [Vue-ECharts](https://github.com/ecomfe/vue-echarts/blob/master/README.md) repository depends on Vue.js v2.2.6 +, and it can be installed by command `$ npm install echarts vue-echarts` or content delivery network (CDN). The application with responsive grid system built by [Bootstrap](https://getbootstrap.com/) is shown in below.
 
-<img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week15_final/screencapture-localhost-8080-2020-05-06-21_37_11.png" width="50%"/>
+<img src="https://github.com/yujunmjiang/WebAdvanced_Spring2020_jiany023/blob/master/week15_final/screencapture-localhost-8080-2020-05-06-21_37_11.png">
